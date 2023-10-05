@@ -122,6 +122,7 @@ function Sec1() {
       </div>
 
       <div className={style.cardsCon}>
+        <div className={style.ripple}></div> 
         <div className={style.introHead}>What should you do</div>
         <div className={style.cardsSec}>
           {CardsData.map((value, i) => {
