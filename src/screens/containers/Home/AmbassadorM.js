@@ -107,6 +107,7 @@ function Sec1() {
           position, who will be in charge of the entire contingent from that
           college.
         </div>
+       
         <div className={style.introBtn}>
           <button
             className={style.introLog}
@@ -120,11 +121,13 @@ function Sec1() {
           {/* <button className={style.introExp}>EXPLORE</button> */}
         </div>
       </div>
+       
 
       <div className={style.cardsCon}>
-        <div className={style.ripple}></div> 
+       
         <div className={style.introHead}>What should you do</div>
         <div className={style.cardsSec}>
+        <div className={style.ripple}></div>
           {CardsData.map((value, i) => {
             return <Cards data={{ ...value }} key={i} />;
           })}
